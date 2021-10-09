@@ -1,0 +1,140 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+
+/***** HEADER *****/
+
+header h1 {
+  font-size: 30px;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  color: #77a466;
+  float: right;
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 30px;
+  text-transform: uppercase;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 14px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+#contact img#contact-img {
+  border: 12px solid #ffffff;
+  margin-left: 25px;
+}
+
+#banner img#hero-img {
+  border-bottom: 3px solid #77a466;
+  border-top: 3px solid #77a466;
+
+}
+
+/***** WELCOME *****/
+
+#welcome h2 {
+  color: #77a466;
+  font-size: 18px;
+  padding-top: 15px;
+}
+
+#welcome p {
+  font-size: 16px;
+  line-height: 25px;
+  padding-bottom: 20px;
+}
+
+
+/***** 3-COLUMN DASHBOARD *****/
+
+#dashboard h3 {
+  font-size: 12px;
+}
+
+#dashboard ul {
+  list-style: none;
+}
+
+#dashboard ul li {
+  color: #77a466;
+  font-size: 16px;
+  line-height: 36px;
+  margin-left: -40px;
+}
+
+.third-width {
+  border-top: 1px solid #f0eef0;
+  padding: 15px 0 10px 0;
+}
+
+#specials {
+  width: 398px;
+}
+
+#contact {
+  padding-left: 30px;
+  width: 368px;
+}
+
+#contact p {
+  line-height: 24px;
+}
+
+#reviews {
+  border-left: 1px solid #f0eef0;
+  border-right: 1px solid #f0eef0;
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 340px;
+}
+
+
+/***** FOOTER *****/
+
+footer h3 {
+  border-top: 1px solid #f0eef0;
+  clear: both;
+  font-size: 16px;
+  padding: 32px 0 16px 0;
+  text-align: center;
+}
+
+footer span {
+  color: #77a466;
+  font-family: Galada;
+  text-transform: lowercase;
+}
